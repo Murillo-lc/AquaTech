@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.header{
+    background-color: #000;
+    height: 100px;
+    border-bottom: 5px solid #32b9cd;
+    }
+
+.container{
+    display: flex;
+    margin: auto;   
+    width: 80%;
+}
+
+.nav-bar{
+    display: flex;
+    color: #e3b062;
+    justify-content: space-around;
+    width: 30%;
+    list-style-type: none;
+    font-size: 15px;
+    }
+
+.titulo{
+    color: #32b9cd;
+}
+
+.banner{
+    background-image: url(imagens/imagens/bg-jelly-fish-para_outras_pags.png);
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.banner-tittle{
+    margin: 0;
+    color: beige;
+    font-size: 35px;
+}
+
+.banner.container{
+    width: 10%;
+    justify-content: flex-end;
+}
+
+.card-image{
+    height: 100px;
+    width: 100px;
+}
+
+.card h2{
+   color: #EB3333;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 100px;
+    padding: 5%;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #32b9cd;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.footer p{
+    margin: 0;
+}
